@@ -1,0 +1,63 @@
+<!-- ເມນູ Top-header  -->
+<div class="one bg-main-header fixed-top mb-mb bg-light">
+  <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+              <img src="../../../assets/img/main-logo.png" alt="" class="main-logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link lao-font p-3" [routerLink]="['/index']">ໜ້າຫຼັກ
+                          <span class="sr-only">(current)</span>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link lao-font p-3 bg-link-header" href="#">ກ່ຽວກັບພວກເຮົາ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link lao-font p-3 bg-link-header" href="#">ຕິດຕໍ່ພວກເຮົາ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link lao-font p-3 bg-link-header" href="#">ການຊຳລະເງິນ</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link lao-font p-3 bg-link-header" href="#">ອາຈານທັງໝົດ</a>
+                  </li>
+              </ul>
+              <span class="navbar-text">
+                  <!-- <div class="col-12 search mb-3">
+                      <div class="input-group">
+                          <input type="text" class="form-control custom-formcontrol lao-font" placeholder="Search" name="search">
+                          <button class="btn-search" type="submit">
+                              <i class="fas fa-search"></i>
+                          </button>
+                      </div>
+                  </div> -->
+              </span>
+              <ul class="nav nav-pills mr-auto">
+                  <li class="nav nav-link lao-font">
+                        <div class="dropdown">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  ຕົວເລືອກ
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item lao-font" [routerLink]="['/login']">ເຂົ້າສູ່ລະບົບ</a>
+                                  <a class="dropdown-item" [routerLink]="['/register']">ລົງທະບຽນ</a>
+                                  <hr>
+                                  <a class="dropdown-item" href="#">For Addmin</a>
+                                </div>
+                              </div>
+                  </li>
+                  <!-- <li class="nav nav-link lao-font"><button class="btn btn-sm btn-outline-info">ລົງທະບຽນ</button></li> -->
+              </ul>
+          </div>
+      </nav>
+  </div>
+</div>
+<br>
+<br><br>

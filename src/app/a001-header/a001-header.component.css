@@ -1,0 +1,23 @@
+/* start css header */
+.active{
+    background: rgb(150, 147, 147);
+}
+.active:hover{
+    background: rgba(206, 201, 201, 0.794) !important;
+}
+.bg-main-header{
+    height: 80px;
+    width: 100%;
+    background: blue;
+}
+.fixed-top{
+    margin-bottom: 100px !important;
+}
+.main-logo{
+    height: 80px;
+    width: 60px;
+}
+.bg-link-header:hover{
+    background: rgba(206, 201, 201, 0.794);
+}
+/* end css header */

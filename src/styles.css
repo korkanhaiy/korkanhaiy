@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: rgba(218, 220, 221, 0.288);
+}
+@font-face {
+    font-family: 'Saysettha_OT';
+    font-weight: normal;
+    font-style: normal;
+    src: url('assets/css/fonts/Saysettha_OT.ttf');
+    
+}
+.lao-font{
+	font-family: 'Saysettha_OT';
+}
+

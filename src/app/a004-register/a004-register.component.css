@@ -1,0 +1,19 @@
+.input-group-text{
+    width: 42px;
+    -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.card{
+  border:10px solid !important;
+  border-color: rgb(144, 154, 163) !important;
+  margin-bottom: 80px;  
+}
+.pd-register{
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+.pd-radio-check-gender{
+  height: 40px; 
+  background-color: #e9ecef;
+  padding: 10px;
+}

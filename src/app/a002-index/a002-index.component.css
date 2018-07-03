@@ -1,0 +1,85 @@
+
+/* start css from text title tutorhouse */
+h1{
+    color: rgba(82, 80, 80, 0.733);
+}
+h2{
+    line-height: 50px;
+    color: rgba(82, 80, 80, 0.733);
+}
+h5{
+    line-height: 20px;
+    font-size: 11pt !important;
+    color:rgba(97, 96, 96, 0.842);
+}
+h4{
+    color: rgb(82, 80, 80);
+}
+.bg-why-tutorhouse{
+    background: rgba(218, 220, 221, 0.288);
+    -webkit-box-shadow: 1px 11px 22px 0px rgba(167, 161, 161, 0.192);
+    padding-top:100px;
+    padding-bottom: 100px;
+  }
+  .size-icon{
+    font-size: 120pt;
+  }
+  .bg-courses-index{
+      padding-top: 100px;
+      padding-bottom: 100px;
+    background: rgba(77, 236, 247, 0.082);
+    
+  }
+
+  .bg-icon-learning{
+      background: none !important;
+      border: none !important;
+  }
+  .bg-icon-learning:hover{
+      cursor: pointer;
+      transition: 0.8s;
+      -webkit-box-shadow: 1px 36px 88px 0px rgba(158,158,158,1);
+      -moz-box-shadow: 1px 36px 88px 0px rgba(158,158,158,1);
+      box-shadow: 1px 36px 88px 0px rgba(158,158,158,1);
+  }
+  /* end css from text title tutorhouse */
+  
+  
+  /* start css from step register */
+    .size-icon-step-register{
+        color: #02b3e4;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: #039ec9;
+        font-size: 120pt;
+  }
+    .border-0{
+      border: none !important;
+  }
+    .card {
+      border: none !important;
+      background: none !important;
+    }
+    .step-to-register{
+        padding-top: 50px;
+    }
+    .bg-fluid-step-register{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background:  rgba(77, 236, 247, 0.082);
+    }
+  .spacing-sentence{
+    text-indent: 12px;
+    text-align: center;
+    color: rgba(82, 80, 80, 0.733);
+  }
+  .size-register{
+      font-weight: 100 !important;
+      font-size: 14pt;
+      height: 80px;
+      border-radius: 30px 30px 30px 30px;
+  }
+  .btn-outline-secondary:hover{
+      color:whitesmoke;
+  }
+  
+    /* end css from step resiter */

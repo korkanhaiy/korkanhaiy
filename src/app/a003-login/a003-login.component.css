@@ -1,0 +1,5 @@
+.input-group-text{
+    width: 42px;
+    -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
