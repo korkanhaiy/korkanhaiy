@@ -1,24 +1,10 @@
-.test-box{
-    height: 100px;
-    width: 100px;
-    background: red;
-    transition:all 1s; margin: 20px;
-    
-}
-.test-box:hover{
-    -webkit-transform: translateY(-40px);
-    cursor: pointer;
-    background: pink;
-}
 
 .all-teacher{
     padding-top: 30px;
     padding-bottom: 30px;
-    /* background:#f7e5c446; */
 }
 .all-teacher:hover{
     background:#f7e5c428;
-    /* background: rgba(212, 212, 214, 0.034); */
     cursor: pointer;
 }
 
