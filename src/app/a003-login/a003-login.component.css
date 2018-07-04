@@ -1,5 +1,35 @@
 .input-group-text{
-    width: 42px;
-    -ms-flex-pack: center !important;
-  justify-content: center !important;
+  width: 42px;
+  -ms-flex-pack: center !important;
+justify-content: center !important;
 }
+.form-control{
+background: rgba(211, 215, 218, 0.192);
+}
+.card{
+background: rgba(244, 247, 248, 0.075);
+border:4px ridge !important;
+-webkit-box-shadow: -1px 6px 8px 0px rgba(0,0,0,0.71); 
+box-shadow: -1px 6px 8px 0px rgba(0,0,0,0.71);
+border-color: rgba(173, 174, 175, 0.733) !important;
+margin-bottom: 80px;  
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.pd-register{
+padding-top:80px;
+padding-bottom: 80px;
+}
+.pd-radio-check-gender{
+height: 40px; 
+background-color: #e9ecef;
+padding: 10px;
+}
+.btn-forgot-password{
+  background: none !important
+}
+.btn-forgot-password:hover{
+  color: rgb(130, 130, 138);
+  background: none !important
+}
+

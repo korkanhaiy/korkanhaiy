@@ -1,0 +1,86 @@
+.test-box{
+    height: 100px;
+    width: 100px;
+    background: red;
+    transition:all 1s; margin: 20px;
+    
+}
+.test-box:hover{
+    -webkit-transform: translateY(-40px);
+    cursor: pointer;
+    background: pink;
+}
+
+.all-teacher{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* background:#f7e5c446; */
+}
+.all-teacher:hover{
+    background:#f7e5c428;
+    /* background: rgba(212, 212, 214, 0.034); */
+    cursor: pointer;
+}
+
+.img-techer{
+    border: 3px solid rgb(119, 118, 118);
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+}
+.img-techer:hover{
+    -webkit-transform: translateY(-20px);
+    cursor: pointer;
+    background: rgba(117, 142, 250, 0.274);
+    transition:all 1s;
+}
+.score-teacher{
+    border:1px solid rgb(218, 215, 215);
+    width: 200px;
+    padding-top: 6px;
+}
+.fa-star{
+    font-size: 10pt !important;
+    color: rgb(229, 255, 0);
+    margin: 3px;
+    -webkit-text-stroke: 1px rgb(122, 118, 118);
+}
+.fa-star:hover{
+    color:orange;
+}
+
+.pd-rewiew{
+    color: rgb(118, 121, 124);
+    font-size: 8pt !important;
+}
+h5{
+    margin-top:14px;
+    line-height: 0 !important;
+}
+h6{
+    font-size: 10pt !important; 
+    color: rgb(174, 175, 177);
+}
+
+p {
+    line-height: 0 !important;
+    margin-top: -20 !important;
+    margin-bottom: none !important;
+  }
+
+.color-name-teacher{
+    color: rgb(141, 112, 15);
+}  
+.icon-tc-from{
+    width: 24px;
+    height: auto;
+}
+.w-24{
+    margin-bottom: 50px;
+    width: 24px;
+    height: auto;
+}
+.size-font-province{
+    font-size: 10pt !important;
+    color: rgb(129, 129, 128);
+}
