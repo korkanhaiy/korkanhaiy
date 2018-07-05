@@ -83,3 +83,23 @@ h4{
   }
   
     /* end css from step resiter */
+
+    @media (min-width: 770px) {
+        .card-deck {
+          -ms-flex-flow: row wrap !important;
+          flex-flow: row wrap !important;
+          margin-right: -15px !important;
+          margin-left: -15px !important;
+        }
+        .card-deck .card {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex: 1 0 0%;
+          flex: 1 0 0%;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          margin-right: 15px;
+          margin-bottom: 0;
+          margin-left: 15px;
+        }
+      }

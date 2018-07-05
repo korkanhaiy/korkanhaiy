@@ -1,0 +1,66 @@
+h6{
+    font-size: 10pt !important; 
+    color: rgb(174, 175, 177);
+}
+/* p {
+    line-height: 0 !important;
+    margin-top: -20 !important;
+    margin-bottom: none !important;
+  } */
+.pd-img{
+    background:#f7e5c446;
+    height: 330px;
+    width: 200px;
+    margin-top:20px;
+    border: 2px solid rgba(192, 190, 190, 0.404);
+    border-radius: 100%;
+    padding: 50px;
+}
+.bd-resume{
+    /* padding: 50px; */
+    /* border:2px solid black; */
+}
+.fa-star{
+    font-size: 10pt !important;
+    color: rgb(229, 255, 0);
+    margin: 3px;
+    -webkit-text-stroke: 1px rgb(122, 118, 118);
+}
+.fa-star:hover{
+    color:orange;
+}
+.pd-rewiew{
+    color: rgb(118, 121, 124);
+    font-size: 8pt !important;
+}
+
+.mr-dt{
+    border: 2px solid rgb(92, 92, 90);
+    background: rgb(27, 27, 27);
+    color: whitesmoke;
+    font-size: 12pt;
+    height: 60px;
+    width: 100%;
+}
+.m-detail{
+   margin-top:20px;
+}
+.m-color{
+    font-size: 18pt;
+}
+
+.m-size{
+    color: rgb(118, 121, 124);
+    font-size: 11pt;
+}
+.h-40{
+    height: 30%;
+}
+.spacing-icon{
+    text-indent: 20px;
+}
+.spacing-sentence{
+    text-indent: 12px;
+    text-align: center;
+    color: rgba(82, 80, 80, 0.733);
+  }
