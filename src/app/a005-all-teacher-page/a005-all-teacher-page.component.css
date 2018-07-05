@@ -18,7 +18,7 @@
     -webkit-transform: translateY(-20px);
     cursor: pointer;
     background: rgba(117, 142, 250, 0.274);
-    transition:all 1s;
+    transition:all 0.6s;
 }
 .score-teacher{
     border:1px solid rgb(218, 215, 215);
