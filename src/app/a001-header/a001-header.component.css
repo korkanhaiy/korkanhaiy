@@ -1,6 +1,7 @@
 /* start css header */
 .bg-light{
     background:#fcf2e2 !important;
+    font-size: 10pt !important;
 }
 .active{
     background: rgb(150, 147, 147);
@@ -24,3 +25,21 @@
     background: rgba(206, 201, 201, 0.794);
 }
 /* end css header */
+@media (min-width: 321px) { 
+    .rp-text-dropdown{
+        color: rgb(139, 136, 136);
+        font-size: 9pt;
+    }
+ }
+@media (min-width: 992px) { 
+    .rp-text-dropdown{
+        color: rgb(139, 136, 136);
+        font-size: 9pt;
+    }
+ }
+@media (min-width: 1200px) {
+    .rp-text-dropdown{
+        color: rgb(139, 136, 136);
+        font-size: 10pt;
+    }
+}

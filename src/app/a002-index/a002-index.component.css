@@ -83,3 +83,36 @@ h4{
   }
   
     /* end css from step resiter */
+
+    /* CSS SCREEN !!! */
+    @media (min-width: 356px) { 
+        .rp-text-courses{
+            line-height: 19px;
+            font-size: 9pt;
+        }
+        h2{
+            font-size: 13pt;
+        }
+     }
+    
+    @media (min-width: 992px) { 
+        .rp-text-courses{
+            line-height: 20px;
+
+            font-size:9pt;
+        }
+        h2{
+            font-size: 15pt;
+        }
+      }
+    @media (min-width: 1200px) { 
+        .rp-text-courses{
+            line-height: 24px;
+            font-size:10pt;
+        }
+        h2{
+            font-size: 20pt;
+        }
+    }
+
+   
